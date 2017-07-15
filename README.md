@@ -7,7 +7,8 @@ At a minimum, snippets should have:
 * optional notes
 * a language
 * tags -- that is, user-defined words or phrases that classify the code, like "authentication", "front-end", "middleware", or "database".
-# Your application must:
+
+Your application must:
 
 * have a comprehensive set of tests for all controllers and models
 * have registration and login
