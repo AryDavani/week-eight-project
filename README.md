@@ -1,5 +1,5 @@
-## Code Snippet Organizer
-# Build an organizer for holding your and others' code snippets.
+# Code Snippet Organizer
+## Build an organizer for holding your and others' code snippets.
 
 Using Express and a database of your choice, create an application that organizes code snippets that you save for later use.
 

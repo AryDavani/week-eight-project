@@ -14,6 +14,14 @@ mongoose.Promise = require('bluebird');
 
 const app = express();
 
+// connect to mongodb
+mongoose.connect('mongodb://localhost:27017/snippets');
+let db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log("Connected!");
+});
+
 // set views
 app.engine('mustache', mustacheExpress());
 app.set('view engine', 'mustache');
